@@ -17,6 +17,9 @@ li.nav-link{
   display: inline-block;
   margin:10px;
 }
+.navigation li:hover{
+  color: lightblue;
+}
 li.contact-icons{
   display: inline-block;
   margin: 10px;
@@ -52,9 +55,26 @@ li.contact-icons{
 .lower.border{
   margin-bottom: 0px;
 }
-.intro{
+.home{
+  text-align:center;
   height: 25em;
   }
+#ghost-1{
+  font-family: 'Roboto', sans-serif;
+  color:lightgray;
+  z-index: 10;
+}
+#ghost-2{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  z-index: 10;
+}
+#banner{
+  background-image: url('images/screenshot.png');
+  height: 310px;
+  width:960px;
+}
+
 .project.space{
   width: 640px;
   padding: 10px;
@@ -66,6 +86,10 @@ li.contact-icons{
   text-align:center;
 }
 
+#builder{
+  right: 150%;
+}
+/* parallax?
 #color-1 {
   background-color: red;
 }
@@ -78,4 +102,4 @@ li.contact-icons{
 #color-4 {
   background-color: green;
 }
-
+*/

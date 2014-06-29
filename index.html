@@ -1,59 +1,178 @@
-<!-- Nathaniel Tuvera Parallax idea-->
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <title>Scroll for information</title>
 
-  <link rel='stylesheet' href='stylesheets/styles.css'>
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<title>Nathaniel Tuvera</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-  <script src='javascripts/libraries/jquery.js'></script>
-  <script src='javascripts/scripts.js'></script>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/styles.css">
+
+	<!-- JavaScripts -->
+	<script type="text/javascript" src="javascripts/jquery.js"></script>
+	<script type="text/javascript" src="javascripts/scripts.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Font-Awesome Icons -->
+	<link rel="stylesheet" href="stylesheets/font-awesome-icons/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheets/font-awesome-icons/font-awesome.css">
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
 
-  <div class='nav-bar'>
 
-  </div>
+<!-- 	<div class='upper adjustable border'>
+	</div> -->
 
-  <div class='intro text-block'>
+	<div class='nav-bar'>
+		<ul class='navigation'>
+			<li class='nav-link' id='home'><i class="fa fa-home fa-2x"></i> home</li>
+			<li class='nav-link' id='about-me'><i class="fa fa-user fa-2x"></i> about</li>
+			<li class='nav-link' id='projects'><i class="fa fa-code fa-2x"></i> projects</li>
+			<li class='nav-link' id='contact-me'><i class="fa fa-envelope fa-2x"></i> contact</li>
+		</ul>
+	</div>
+	<!-- Primary Page Layout -->
 
-    <h2> i am ...</h2>
+	<div class="container">
 
-    <h3> a tinkerer, builder, modder</h3>
+		<div class='home'>
+			<div class='sixteen columns' id='banner'>
+				<h1 class="remove-bottom" style="margin-top: 60px" id='ghost-1'>i am...</h1>
+				<h1 class="remove-bottom" style="margin-top: 55px" id='ghost-2'>Nate Tuvera</h1>
+
+		</div>
+	</div>
+
+	<div class='about-me'>
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">About me</h1>
+			<h5>For those who like to read...</h5>
+			<hr />
+		</div>
+		<div class="one-third column">
+			<h3>Current</h3>
+			<p>Former chemist turned developer. Learning to build cool stuff and manipulate the digital world. </p>
+			<br/>
+		</div>
+
+				<div class="one-third column">
+			<h3> Stack </h3>
+			<ul class="square">
+				<li><strong>Ruby on Rails</strong>: Ruby 1.9 & 2.1</li>
+				<li><strong>Javascript</strong>: jQuery, backbone, d3</li>
+				<li><strong>HTML5/CSS</strong></li>
+			</ul>
+		</div>
+
+		<div class="one-third column">
+			<h3>Where to Next?</h3>
+			<p>Finishing General Assembly's WDi course.  Looking for an opportunity to continue learning and building new, cool stuff as a web dev..</p>
+		</div>
+
+	</div>
 
 
-  </div>
+	<div class='projects'>
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">Works</h1>
+			<h5>See what I've been up to...</h5>
+			<hr />
+		</div>
+		<div class="one-third column">
+			<h3>Past Projects</h3>
+			<p>Current list of past projects ranging from GA's WDi program to side projects.</p>
+		</div>
+		<div class="two-thirds column">
 
-  <div class='image-banner' id='color-1'>
-    <img class='para-image'  src="images/red_power_button.jpg"/>
-  </div>
+			<div class='project space'>
+				<a href='http://still-headland-4174.herokuapp.com/'>
+					<img src='images/Screenshot_ListTube.png'>
+				</a>
+				<h3>ListTube</h3>
+				<p>A simple way to share YouTubeVideos and keep track of whom you've shared with videos</p>
+				<strong>Technology used:</strong> Ruby On Rails, YouTube API, Postgresql
+			</div>
 
-  <div class='about text-block'>
-    about
-  </div>
+				<div class='project space'>
+					<a href='http://shielded-reef-1881.herokuapp.com/'>
+						<img src='images/Screenshot_CardBox_app.png'>
+					</a>
+					<h3>CardBox_app</h3>
+					<p>A collaborative project. Snap a picture of a business card and email it to the app to keep track networking contacts instead of piling up business cards.</p>
+					<strong>Technology used:</strong> Ruby On Rails, jQuery, ajax, LinkedIn API, CloudMailIn, Postgresql
+				</div>
 
-  <div class='image-banner' id='color-2'>
-    <img class='para-image' src="images/screenshot.png"/>
-  </div>
 
-  <div class='work text-block'>
-    work
-  </div>
+		</div>
 
-  <div class='image-banner' id='color-3'>
-    <img class='para-image' src="images/post-it_grid.jpg"/>
-  </div>
+	</div>
 
-  <div class='contact text-block'>
-    contact
-  </div>
 
-  <div class='image-banner' id='color-4'>
-    <img class='para-image' src="images/test_pattern.jpg"/>
-  </div>
+		<div class='contact-me'>
+
+			<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px"></h1>
+			<h5>For those interested in reaching me...</h5>
+			<hr />
+				<ul>
+					<li class='contact-icons'>
+						<a href='mailto:ntuvera@gmail.com'><i class="fa fa-envelope fa-3x"></i>
+						</a>
+					</li>
+					<li class='contact-icons'>
+						<a href='https://docs.google.com/document/d/1-CLnLh9bTu6ib-i3R5Lgy0eX5KoSg-XKYGmsehuxU60/pub'><i class="fa fa-file-word-o fa-3x"></i>
+						</a>
+					</li>
+					<li class='contact-icons'>
+						<a href='https://www.linkedin.com/pub/nathaniel-tuvera/44/356/239'><i class="fa fa-linkedin fa-3x"></i>
+						</a>
+					</li>
+					<li class='contact-icons'>
+						<a href='https://github.com/ntuvera'<i class="fa fa-github-square fa-3x"></i>
+						</a>
+					</li>
+					<li class='contact-icons'>
+						<a href='https://twitter.com/ntuvera'><i class="fa fa-twitter-square fa-3x"></i>
+						</a>
+					</li>
+					<li class='contact-icons'>
+						<a href='https://plus.google.com/102666707351406533703/posts/p/pub'><i class="fa fa-google-plus fa-3x"></i>
+						</a>
+					</li>
+				</ul>
+				<hr/>
+			</div>
+	</div>
+
+	</div><!-- container -->
+
+	<hr/>
+	<div class='lower adjustable border'>
+	</div>
 
 
 
