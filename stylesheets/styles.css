@@ -18,7 +18,7 @@ li.nav-link{
   margin:10px;
 }
 .navigation li:hover{
-  color: lightblue;
+  color: lightgray;
 }
 li.contact-icons{
   display: inline-block;
@@ -28,7 +28,11 @@ li.contact-icons{
   text-align: center;
   position: center;
   margin-top:0;
-  height:4em;
+  height:2em;
+}
+.nav-bar{
+  text-align:center;
+  margin-bottom: 5em;
 }
 .text-block{
   height:   25em;
