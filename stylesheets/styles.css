@@ -31,6 +31,9 @@ li.nav-link{
 .navigation li:hover{
   color: lightgray;
 }
+.contact-icons a:hover{
+  color: lightgray;
+}
 li.contact-icons{
   display: inline-block;
   margin: 10px;
@@ -38,6 +41,7 @@ li.contact-icons{
 li.contact-icons a{
   cursor: default;
 }
+
 .name{
   font-family: 'Roboto', sans-serif;
   text-align: left;
@@ -63,7 +67,7 @@ li.contact-icons a{
 }
 
 .image-banner{
-  height:   20em;
+  height:   2em;
   overflow: hidden;
   /*position: center;*/
   margin:   0;
@@ -96,7 +100,7 @@ li.contact-icons a{
 }
 #banner{
   background: url("images/screenshot_banner.png");
-  height: 310px;
+  height: 400px;
   width:960px;
 }
 
