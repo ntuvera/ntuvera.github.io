@@ -1,8 +1,11 @@
 body{
-  /*height:   200em;*/ /*parallax only */
   padding:  0;
   margin:   0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto', sans-serif;
 }
 
 img{
@@ -36,6 +39,7 @@ li.contact-icons a{
   cursor: default;
 }
 .name{
+  font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 .navigation{
@@ -47,7 +51,7 @@ li.contact-icons a{
 }
 .nav-bar{
   padding-top: 2em;
-  padding-bottom: 10em;
+  padding-bottom: 5em;
   text-align: right;
   margin-bottom: 2em;
 }
@@ -91,7 +95,7 @@ li.contact-icons a{
   z-index: 10;
 }
 #banner{
-  background-image: url('images/screenshot.png');
+  background: url("images/screenshot_banner.png");
   height: 310px;
   width:960px;
 }
@@ -100,7 +104,6 @@ li.contact-icons a{
   width: 640px;
   padding: 10px;
   margin: 10px;
-  border: 1px solid black;
 }
 
 .contact-me{
