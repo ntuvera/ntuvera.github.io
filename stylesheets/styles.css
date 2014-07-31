@@ -118,6 +118,13 @@ li.contact-icons a{
   right: 150%;
 }
 
-.centered{
-  margin: auto 0;
+.non-floater{
+  overflow: hidden;
+}
+
+iframe {
+  height: 1080px;
+  width: 100%;
+  padding: 0;
+  border: 0;
 }
