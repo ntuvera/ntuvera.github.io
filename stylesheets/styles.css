@@ -117,3 +117,7 @@ li.contact-icons a{
 #builder{
   right: 150%;
 }
+
+.centered{
+  margin: auto 0;
+}
